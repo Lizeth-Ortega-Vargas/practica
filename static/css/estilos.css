@@ -1,0 +1,20 @@
+/*--HEADER--*/
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #B40404;
+	color:#fff;
+	padding: 20px 0;
+}
+
+.jumbotron .minombre {
+	font-size: 15px; 
+}
+
+footer {
+	background: #B40404;
+	color: #fff;
+}

@@ -1,0 +1,14 @@
+﻿$def with (post, form)
+
+<h1>Editar $form.d.nombre</h1>
+
+<form action="" method="post">
+$:form.render()
+</form>
+
+
+
+<h2>Eliminar este alumno</h2>
+<form action="/delete/$post.id_alumno" method="post">
+    <input type="submit" value=Borrar onclick="return confirm ('¿Está seguro(a) que desea eliminar este producto?')"/>
+</form>

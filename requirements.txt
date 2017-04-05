@@ -1,0 +1,2 @@
+MYSQL-python==1.2.5
+web.py==0.38
